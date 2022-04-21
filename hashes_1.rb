@@ -87,6 +87,9 @@ end
 # you created above:
 # YOUR CODE HERE
 
+email_information.each do |key,value|
+  puts "#{value}"
+end
 
 #-------------------
 # Part 3: Many Emails - CHALLENGE!
