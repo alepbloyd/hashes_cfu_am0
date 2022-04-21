@@ -56,8 +56,24 @@ puts foods.keys
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
+email_information = {
+  "sender_name" => "Kate Boyd",
+  "sender_email_address" => "fakeEmail@fakeEmail.com",
+  "recipient_name" => "Alex Boyd",
+  "recipient_email_address" => "anotherFakeEmail@anotherFakeEmail.org",
+  "contains_attachments" => false,
+  "attachment_number" => 0,
+  "subject_line" => "Hey what's up hello",
+  "message_contents" => "You ever think about how good snacks taste?",
+  "message_send_time" => "6:20 AM",
+  "message_receive_time" => "6:20 AM",
+}
+
 # Write code that prints your email hash to the terminal.
 
+email_information.each do |key,value|
+  puts "#{key} is #{value}"
+end
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
