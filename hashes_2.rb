@@ -8,9 +8,6 @@ states = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each state name and abbreviation
-#
-#
-#
 
 states.each do |state,abbreviation|
   puts "The abbreviation for #{state} is #{abbreviation}."
@@ -27,9 +24,10 @@ birthdays = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each friends name and birthday
-#
-#
-#
+
+birthdays.each do |name,birthday|
+  puts "#{name}'s birthday is #{birthday}."
+end
 
 
 # ======================================
