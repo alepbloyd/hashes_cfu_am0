@@ -12,6 +12,9 @@ states = {
 #
 #
 
+states.each do |state,abbreviation|
+  puts "The abbreviation for #{state} is #{abbreviation}."
+end
 
 # ======================================
 # 2- Using the following Hash
