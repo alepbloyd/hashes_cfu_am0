@@ -167,7 +167,7 @@ email_array = [
   {
     "sender_name" => "Cookie Monster",
     "sender_email_address" => "LuvsCookies123@fakeEmail.com",
-    "recipient_name" => "Chips Ahy Company",
+    "recipient_name" => "Chips Ahoy Company",
     "recipient_email_address" => "ChipsAhoy@anotherFakeEmail.org",
     "contains_attachments" => false,
     "attachment_number" => 0,
@@ -177,5 +177,8 @@ email_array = [
     "message_receive_time" => "8:12 AM",
   }
 ]
-
 # Then, print the email Array to the Terminal.
+
+email_array.each do |key,value|
+  puts "#{key}, #{value}"
+end
