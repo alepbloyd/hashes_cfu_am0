@@ -21,6 +21,10 @@ end
 # you created above:
 # YOUR CODE HERE
 
+foods.each do |key,value|
+  puts "#{value}"
+end
+
 # Write code that prints the value of the second food of the foods variable
 # you created above:
 # YOUR CODE HERE
