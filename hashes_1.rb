@@ -138,4 +138,44 @@ end
 
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
+
+email_array = [
+  {
+    "sender_name" => "Kate Boyd",
+    "sender_email_address" => "fakeEmail@fakeEmail.com",
+    "recipient_name" => "Alex Boyd",
+    "recipient_email_address" => "anotherFakeEmail@anotherFakeEmail.org",
+    "contains_attachments" => false,
+    "attachment_number" => 0,
+    "subject_line" => "Hey what's up hello",
+    "message_contents" => "You ever think about how good snacks taste?",
+    "message_send_time" => "6:20 AM",
+    "message_receive_time" => "6:20 AM",
+  },
+  {
+    "sender_name" => "Chips Ahoy Company",
+    "sender_email_address" => "ChipsAhoy@fakeEmail.com",
+    "recipient_name" => "Cookie Monster",
+    "recipient_email_address" => "LuvsCookies123@anotherFakeEmail.org",
+    "contains_attachments" => true,
+    "attachment_number" => 1,
+    "subject_line" => "Cookies?",
+    "message_contents" => "We heard you might want some cookies to eat.",
+    "message_send_time" => "8:10 AM",
+    "message_receive_time" => "8:11 AM",
+  },
+  {
+    "sender_name" => "Cookie Monster",
+    "sender_email_address" => "LuvsCookies123@fakeEmail.com",
+    "recipient_name" => "Chips Ahy Company",
+    "recipient_email_address" => "ChipsAhoy@anotherFakeEmail.org",
+    "contains_attachments" => false,
+    "attachment_number" => 0,
+    "subject_line" => "How did you get my email?",
+    "message_contents" => "Never contact me again.",
+    "message_send_time" => "8:12 AM",
+    "message_receive_time" => "8:12 AM",
+  }
+]
+
 # Then, print the email Array to the Terminal.
