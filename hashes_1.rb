@@ -79,6 +79,10 @@ end
 # you created above:
 # YOUR CODE HERE
 
+email_information.each do |key,value|
+  puts "#{key}"
+end
+
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
